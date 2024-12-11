@@ -1,7 +1,7 @@
 import React from "react";
 import { useQuery } from "@tanstack/react-query";
 
-import { getUniversities } from "./services/getUniversities";
+import { getUniversities } from "../../services/getUniversities";
 import { University } from "../types/university";
 
 const UniversitiesList = React.memo(() => {
