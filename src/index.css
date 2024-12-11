@@ -27,17 +27,17 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 20rem; /* 320px to 20rem */
-  min-height: 100vh; /* 100vh remains the same */
+  min-width: 20rem;
+  min-height: 100vh;
 }
 
 h1 {
-  font-size: 3.2rem; /* 3.2em to 3.2rem */
+  font-size: 3.2rem;
   line-height: 1.1;
 }
 
 .header {
-  padding-left: 2.5rem; /* 40px to 2.5rem */
+  padding-left: 2.5rem;
 }
 
 .list {
