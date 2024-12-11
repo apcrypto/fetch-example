@@ -2,15 +2,16 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Define base font size */
+  font-size: 16px;
 }
 
 a {
@@ -26,17 +27,17 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  min-width: 20rem; /* 320px to 20rem */
+  min-height: 100vh; /* 100vh remains the same */
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3.2rem; /* 3.2em to 3.2rem */
   line-height: 1.1;
 }
 
 .header {
-  padding-left: 40px;
+  padding-left: 2.5rem; /* 40px to 2.5rem */
 }
 
 .list {
