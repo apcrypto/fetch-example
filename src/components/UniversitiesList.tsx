@@ -21,8 +21,8 @@ const UniversitiesList = React.memo(() => {
 
   return (
     <ul>
-      {universities?.map((uni, i) => (
-        <li className="list" key={i}>
+      {universities?.map((uni) => (
+        <li className="list" key={uni.web_pages[0]}>
           <h3 className="name">{uni.name}</h3>
           <a href={uni.web_pages[0]} target="_blank">
             {uni.web_pages[0]}
